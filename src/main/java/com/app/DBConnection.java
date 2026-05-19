@@ -1,11 +1,5 @@
 package com.app;
 
-import jakarta.servlet.ServletException;
-import jakarta.servlet.annotation.WebServlet;
-import jakarta.servlet.http.HttpServlet;
-import jakarta.servlet.http.HttpServletRequest;
-import jakarta.servlet.http.HttpServletResponse;
-import java.io.IOException;
 import java.sql.Connection;
 import java.sql.DriverManager;
 
@@ -18,7 +12,8 @@ public class DBConnection {
 		
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
-			con = DriverManager.getConnection("jdbc:mysql://localhost:3306/user_db", "root", "tJATIN@955");
+			//con = DriverManager.getConnection("jdbc:mysql://localhost:3306/user_db", "root", "tJATIN@955");
+			con = DriverManager.getConnection("jdbc:mysql://yamanote.proxy.rlwy.net:10734/railway", "root", "AEztCsnUznYNpiCOCtPtlcQBCFHYeNpl");
 		}
 		catch(Exception e) {
 			e.printStackTrace();
@@ -28,3 +23,4 @@ public class DBConnection {
 	}
 
 }
+//  jdbc:mysql://containers-us-west-123.railway.app:6543/railway

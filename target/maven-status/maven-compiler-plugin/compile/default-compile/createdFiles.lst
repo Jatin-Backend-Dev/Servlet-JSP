@@ -1,0 +1,5 @@
+com\app\UpdatePassword.class
+com\app\ForgotServlet.class
+com\app\RegisterServlet.class
+com\app\DBConnection.class
+com\app\LoginServlet.class

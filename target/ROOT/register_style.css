@@ -1,0 +1,98 @@
+@charset "UTF-8";
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    /* background-color: #22c7b8; */
+    background:linear-gradient(136deg,rgba(0, 128, 117, 1) 0%, rgba(187, 252, 248, 1) 61%, rgba(0, 250, 229, 1) 100%);
+}
+
+.register-box{
+    width:400px;
+    background-color:white;
+    border-radius:6px;
+    /* padding: 0px 30px; */
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.2);
+}
+
+.top-section{
+    background-color: #16a394;
+    color: white;
+    text-align: center;
+    padding: 20px 0px;
+    border-radius:6px;
+    
+}
+
+.top-section h1{
+    font-size:40px;
+    font-weight: bold;
+}
+
+.form-section{
+    padding: 35px 30px 0px;
+    /* border:1px solid red; */
+}
+
+.input-box{
+    display:flex;
+    margin-bottom:20px;
+    border:1px solid #ccc;
+    border-radius:4px;
+}
+
+.input-box input{
+    width:100%;
+    border:none;
+    outline:none;
+    padding:15px;
+    font-size:18px;
+}
+
+.remember{
+    display:flex;
+    align-items: center;
+    margin-bottom:20px;
+    margin-top:20px;
+    
+}
+
+.remember input{
+    margin-right:10px;
+}
+
+.register-btn{
+    width:100%;
+    padding:15px;
+    background-color: #16a394;
+    color:white;
+    border:none;
+    font-size:18px;
+    border-radius:10px;
+    cursor: pointer;
+    
+}
+
+.register-btn:hover{
+    background-color: #138075;
+}
+
+.signin-text{
+    text-align:center;
+    margin:10px 0px 20px 0px;
+}
+
+.signin-text a{
+    text-decoration:none;
+    color:#16a394;
+    font-weight:bold;
+    font-size:18px;
+}
