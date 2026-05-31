@@ -17,7 +17,7 @@
 
 	<div class="welcome-section">
 		<div class="top-section">
-			<h1 class="rainbow">Welcome <%=user %></h1>
+			<h1 class="rainbow">Welcome:- <%=user %></h1>
 		</div>
 	</div>
 </body>
