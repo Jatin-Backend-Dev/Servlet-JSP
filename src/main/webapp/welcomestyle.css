@@ -1,0 +1,44 @@
+@charset "UTF-8";
+body{
+	height:100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: #22c7b8; */
+    background:linear-gradient(136deg,rgba(0, 128, 117, 1) 0%, rgba(187, 252, 248, 1) 61%, rgba(0, 250, 229, 1) 100%);
+}
+
+.welcome-section{
+    width: 500px;
+    height: auto;
+    background-color: white;
+    border-radius: 6px;
+    overflow: hidden;
+    
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+}
+
+.top-section{
+    background-color: #22c7b8;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.rainbow{
+	font-size: 3rem;
+  font-weight: bold;
+  font-family: sans-serif;
+  display: inline-block; /* Keeps the gradient contained to the text length */
+
+  /* Create the rainbow background spectrum */
+  background: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet);
+  
+  /* Clip the background strictly to the text glyphs */
+  -webkit-background-clip: text;
+  background-clip: text;
+  
+  /* Make the original text color invisible to reveal the gradient underneath */
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
