@@ -32,7 +32,7 @@
 				<a href="forgotpassword.jsp" class="forgot-password">Forgot Password?</a>
 				<button class="login-btn">Login</button>
 				<p class="signup-text">
-					Already have an account? <a href="register.jsp">Sign Up</a>
+					Don't have an account? <a href="register.jsp">Sign Up</a>
 				</p>
 			</div>
 
